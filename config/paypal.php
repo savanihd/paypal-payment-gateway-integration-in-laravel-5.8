@@ -5,7 +5,7 @@
  */
 
 return [
-    'mode'    => env('PAYPAL_MODE', 'sandbox')
+    'mode'    => env('PAYPAL_MODE', 'sandbox'),
     'sandbox' => [
         'username'    => env('PAYPAL_SANDBOX_API_USERNAME', ''),
         'password'    => env('PAYPAL_SANDBOX_API_PASSWORD', ''),
